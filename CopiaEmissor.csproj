@@ -78,25 +78,34 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Copy.cs" />
+    <Compile Include="HelpUsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpUsForm.Designer.cs">
+      <DependentUpon>HelpUsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="nCopyForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="nCopyForm.Designer.cs">
       <DependentUpon>nCopyForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="HelpForm.cs">
+    <Compile Include="HelpBrForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HelpForm.Designer.cs">
-      <DependentUpon>HelpForm.cs</DependentUpon>
+    <Compile Include="HelpBrForm.Designer.cs">
+      <DependentUpon>HelpBrForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="HelpUsForm.resx">
+      <DependentUpon>HelpUsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="nCopyForm.resx">
       <DependentUpon>nCopyForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HelpForm.resx">
-      <DependentUpon>HelpForm.cs</DependentUpon>
+    <EmbeddedResource Include="HelpBrForm.resx">
+      <DependentUpon>HelpBrForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

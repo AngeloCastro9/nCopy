@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CopiaEmissor
+namespace nCopy
 {
-    public partial class Help : Form
+    public partial class HelpUsForm : Form
     {
-        public Help()
+        public HelpUsForm()
         {
             InitializeComponent();
         }

@@ -14,7 +14,6 @@ C:\Users\mathe\Área de Trabalho\nCopy\bin\Debug\nCopy.exe
 C:\Users\mathe\Área de Trabalho\nCopy\bin\Debug\nCopy.pdb
 C:\Users\mathe\Área de Trabalho\nCopy\obj\Debug\CopiaEmissor.csprojAssemblyReference.cache
 C:\Users\mathe\Área de Trabalho\nCopy\obj\Debug\CopiaEmissor.nCopyForm.resources
-C:\Users\mathe\Área de Trabalho\nCopy\obj\Debug\CopiaEmissor.Help.resources
 C:\Users\mathe\Área de Trabalho\nCopy\obj\Debug\nCopy.Properties.Resources.resources
 C:\Users\mathe\Área de Trabalho\nCopy\obj\Debug\CopiaEmissor.csproj.GenerateResource.cache
 C:\Users\mathe\Área de Trabalho\nCopy\obj\Debug\CopiaEmissor.csproj.CoreCompileInputs.cache
@@ -24,3 +23,5 @@ C:\Users\mathe\Área de Trabalho\nCopy\bin\Debug\nCopy.exe.manifest
 C:\Users\mathe\Área de Trabalho\nCopy\bin\Debug\nCopy.application
 C:\Users\mathe\Área de Trabalho\nCopy\obj\Debug\nCopy.exe.manifest
 C:\Users\mathe\Área de Trabalho\nCopy\obj\Debug\nCopy.application
+C:\Users\mathe\Área de Trabalho\nCopy\obj\Debug\nCopy.HelpUsForm.resources
+C:\Users\mathe\Área de Trabalho\nCopy\obj\Debug\CopiaEmissor.Ajuda.resources

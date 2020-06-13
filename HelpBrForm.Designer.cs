@@ -1,6 +1,6 @@
 ﻿namespace CopiaEmissor
 {
-    partial class Help
+    partial class Ajuda
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Help));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ajuda));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnHelp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -51,15 +52,27 @@
             this.label2.TabIndex = 1;
             this.label2.Text = resources.GetString("label2.Text");
             // 
-            // Help
+            // btnHelp
+            // 
+            this.btnHelp.Location = new System.Drawing.Point(437, 88);
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.Size = new System.Drawing.Size(100, 23);
+            this.btnHelp.TabIndex = 9;
+            this.btnHelp.Text = "English version";
+            this.btnHelp.UseVisualStyleBackColor = true;
+            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
+            // 
+            // Ajuda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(549, 122);
+            this.Controls.Add(this.btnHelp);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Help";
-            this.Text = "Help";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Ajuda";
+            this.Text = "Ajuda";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -69,5 +82,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnHelp;
     }
 }

@@ -54,8 +54,8 @@ namespace CopiaEmissor
 
         private void btnHelp_Click(object sender, EventArgs e)
         {
-            var helpForm = new Help();
-            helpForm.Show();
+            var helpBrForm = new Ajuda();
+            helpBrForm.Show();
         }
     }
 }

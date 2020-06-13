@@ -1,0 +1,11 @@
+C:\Users\mathe\Área de Trabalho\CopiaEmissor\CopiaEmissor\obj\Release\CopiaEmissor.csprojAssemblyReference.cache
+C:\Users\mathe\Área de Trabalho\CopiaEmissor\CopiaEmissor\obj\Release\CopiaEmissor.csproj.GenerateResource.cache
+C:\Users\mathe\Área de Trabalho\CopiaEmissor\CopiaEmissor\obj\Release\CopiaEmissor.csproj.CoreCompileInputs.cache
+C:\Users\mathe\Área de Trabalho\CopiaEmissor\CopiaEmissor\obj\Release\CopiaEmissor.Help.resources
+C:\Users\mathe\Área de Trabalho\CopiaEmissor\CopiaEmissor\bin\Release\nCopy.exe.config
+C:\Users\mathe\Área de Trabalho\CopiaEmissor\CopiaEmissor\bin\Release\nCopy.exe
+C:\Users\mathe\Área de Trabalho\CopiaEmissor\CopiaEmissor\bin\Release\nCopy.pdb
+C:\Users\mathe\Área de Trabalho\CopiaEmissor\CopiaEmissor\obj\Release\nCopy.Properties.Resources.resources
+C:\Users\mathe\Área de Trabalho\CopiaEmissor\CopiaEmissor\obj\Release\nCopy.exe
+C:\Users\mathe\Área de Trabalho\CopiaEmissor\CopiaEmissor\obj\Release\nCopy.pdb
+C:\Users\mathe\Área de Trabalho\CopiaEmissor\CopiaEmissor\obj\Release\CopiaEmissor.nCopyForm.resources

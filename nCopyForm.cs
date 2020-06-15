@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CopiaEmissor
@@ -34,9 +27,9 @@ namespace CopiaEmissor
         private void btnStart_Click(object sender, EventArgs e)
         {
             progressBar1.Visible = true;
-            if(txtConfigFile.Text != "")
+            if (txtConfigFile.Text != "")
             {
-                if(txtSourcePath.Text != "")
+                if (txtSourcePath.Text != "")
                 {
                     Copy copy = new Copy();
                     copy.ReadTxt(txtSourcePath.Text, txtConfigFile.Text, progressBar1);

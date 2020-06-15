@@ -28,8 +28,14 @@ namespace CopiaEmissor
 
                     File.Copy(newPath, newPath.Replace(sourcePath, backupPath), true);
 
-                    if (pBar.Value != newPath.Length)
-                        pBar.PerformStep();
+                    for (int x = 1; x <= newPath.Length; x++)
+                    {
+                        if (x != 0)
+                        {
+                            pBar.PerformStep();
+                            x--;
+                        }
+                    }
                 }
             }
 

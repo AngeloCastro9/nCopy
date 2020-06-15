@@ -34,21 +34,21 @@ namespace CopiaEmissor
         private void btnStart_Click(object sender, EventArgs e)
         {
             progressBar1.Visible = true;
-            if(txtSourcePath.Text != "")
+            if(txtConfigFile.Text != "")
             {
-                if(txtConfigFile.Text != "")
+                if(txtSourcePath.Text != "")
                 {
                     Copy copy = new Copy();
                     copy.ReadTxt(txtSourcePath.Text, txtConfigFile.Text, progressBar1);
                 }
                 else
                 {
-                    MessageBox.Show("Invalid txt config file");
+                    MessageBox.Show("Invalid path source");
                 }
             }
             else
             {
-                MessageBox.Show("Invalid path source");
+                MessageBox.Show("Invalid txt config file");
             }
         }
 

@@ -45,7 +45,7 @@
             this.btnOpenFolder.Location = new System.Drawing.Point(425, 169);
             this.btnOpenFolder.Name = "btnOpenFolder";
             this.btnOpenFolder.Size = new System.Drawing.Size(60, 23);
-            this.btnOpenFolder.TabIndex = 0;
+            this.btnOpenFolder.TabIndex = 4;
             this.btnOpenFolder.Text = "...";
             this.btnOpenFolder.UseVisualStyleBackColor = true;
             this.btnOpenFolder.Click += new System.EventHandler(this.btnOpenFolder_Click);
@@ -55,7 +55,7 @@
             this.txtSourcePath.Location = new System.Drawing.Point(15, 172);
             this.txtSourcePath.Name = "txtSourcePath";
             this.txtSourcePath.Size = new System.Drawing.Size(382, 20);
-            this.txtSourcePath.TabIndex = 1;
+            this.txtSourcePath.TabIndex = 3;
             // 
             // label1
             // 
@@ -80,14 +80,14 @@
             this.txtConfigFile.Location = new System.Drawing.Point(15, 68);
             this.txtConfigFile.Name = "txtConfigFile";
             this.txtConfigFile.Size = new System.Drawing.Size(382, 20);
-            this.txtConfigFile.TabIndex = 4;
+            this.txtConfigFile.TabIndex = 1;
             // 
             // btnOpenFolder2
             // 
             this.btnOpenFolder2.Location = new System.Drawing.Point(425, 65);
             this.btnOpenFolder2.Name = "btnOpenFolder2";
             this.btnOpenFolder2.Size = new System.Drawing.Size(60, 23);
-            this.btnOpenFolder2.TabIndex = 3;
+            this.btnOpenFolder2.TabIndex = 2;
             this.btnOpenFolder2.Text = "...";
             this.btnOpenFolder2.UseVisualStyleBackColor = true;
             this.btnOpenFolder2.Click += new System.EventHandler(this.btnOpenFolder2_Click);
@@ -97,7 +97,7 @@
             this.btnStart.Location = new System.Drawing.Point(303, 246);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(60, 23);
-            this.btnStart.TabIndex = 6;
+            this.btnStart.TabIndex = 5;
             this.btnStart.Text = "Start";
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
@@ -114,7 +114,7 @@
             this.btnHelp.Location = new System.Drawing.Point(611, 12);
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Size = new System.Drawing.Size(60, 23);
-            this.btnHelp.TabIndex = 8;
+            this.btnHelp.TabIndex = 6;
             this.btnHelp.Text = "?";
             this.btnHelp.UseVisualStyleBackColor = true;
             this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);

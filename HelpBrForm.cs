@@ -21,9 +21,9 @@ namespace CopiaEmissor
         private void btnHelp_Click(object sender, EventArgs e)
         {
             this.Hide();
-            var form2 = new HelpUsForm();
-            form2.Closed += (s, args) => this.Close();
-            form2.Show();
+            var helpUsForm = new HelpUsForm();
+            helpUsForm.Closed += (s, args) => this.Close();
+            helpUsForm.Show();
 
         }
     }

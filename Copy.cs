@@ -28,10 +28,9 @@ namespace CopiaEmissor
                         if (x != 0)
                         {
                             pBar.PerformStep();
-                            x--;
                         }
                     }
-                }
+                }                
             }
 
             catch (IOException copyError)
